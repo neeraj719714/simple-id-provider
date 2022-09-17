@@ -1,0 +1,11 @@
+{
+  "name": "simple-id-provider",
+  "version": "1.0.0",
+  "description": "A simple and meaningful ID provider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neeraj Singh",
+  "license": "ISC"
+}
