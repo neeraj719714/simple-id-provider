@@ -1,5 +1,5 @@
-import TrieNode from "./TrieNode";
-import { isAlphaNumeric } from "./utils/isAlphaNumeric";
+import TrieNode from "./TrieNode.js";
+import { isAlphaNumeric } from "./utils/isAlphaNumeric.js";
 
 interface IDProvider {
   root: TrieNode;

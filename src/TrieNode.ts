@@ -14,5 +14,3 @@ class TrieNode {
 }
 
 export default TrieNode;
-
-// module.exports = TrieNode;

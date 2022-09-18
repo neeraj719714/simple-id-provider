@@ -1,1 +1,5 @@
-!dist
+tsconfig.json
+.gitignore
+src
+!dist/src
+index.ts

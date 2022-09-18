@@ -1,3 +1,3 @@
-import IDProvider from "./src/IDProvider";
+import IDProvider from "./src/IDProvider.js";
 
 export default IDProvider;
