@@ -2,9 +2,12 @@
   "name": "simple-id-provider",
   "version": "1.0.0",
   "description": "A simple and meaningful ID provider",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "type": "module",
+  "bugs": {
+    "url": "https://github.com/neeraj719714/simple-id-provider/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
