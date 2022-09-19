@@ -1,5 +1,3 @@
-tsconfig.json
-.gitignore
-src
-!dist/src
-index.ts
+/*
+! lib/*
+! README.md

@@ -4,17 +4,21 @@ import { isAlphaNumeric } from "./utils/isAlphaNumeric.js";
 interface IDProvider {
   root: TrieNode;
   options: {
-    caseSensitive: boolean;
-    allowDuplicates: boolean;
-    specialCharsAllowed: string;
+    caseSensitive?: boolean;
+    allowDuplicates?: boolean;
+    specialCharsAllowed?: string;
   };
 }
 
 // implementation using trie data structure
 class IDProvider {
-  constructor() {
+  constructor(options?: {
+    caseSensitive?: boolean;
+    allowDuplicates?: boolean;
+    specialCharsAllowed?: string;
+  }) {
     this.root = new TrieNode("");
-    this.options = {
+    this.options = options || {
       caseSensitive: false,
       allowDuplicates: true,
       specialCharsAllowed: "-",
@@ -40,7 +44,7 @@ class IDProvider {
     for (let i = 0; i < id.length; i++) {
       let char = id[i];
       const isCharSpecial = !isAlphaNumeric(char);
-      const isCharAllowed = this.options.specialCharsAllowed.includes(char);
+      const isCharAllowed = this.options.specialCharsAllowed?.includes(char);
 
       // if char is special and not allowed, replace it with a - character
       if (isCharSpecial && !isCharAllowed) {
