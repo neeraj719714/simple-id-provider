@@ -5,6 +5,10 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeraj719714/simple-id-provider"
+  },
   "bugs": {
     "url": "https://github.com/neeraj719714/simple-id-provider/issues"
   },
