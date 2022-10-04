@@ -18,6 +18,6 @@
   "author": "Neeraj Singh",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.8.3"
+    "typescript": "^4.8.4"
   }
 }

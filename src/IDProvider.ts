@@ -10,7 +10,6 @@ interface IDProvider {
   };
 }
 
-// implementation using trie data structure
 class IDProvider {
   constructor(options?: {
     caseSensitive?: boolean;
