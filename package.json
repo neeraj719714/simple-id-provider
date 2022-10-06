@@ -1,6 +1,6 @@
 {
   "name": "simple-id-provider",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple and meaningful ID provider",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -19,5 +19,6 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.8.4"
-  }
+  },
+  "keywords": ["node", "id","id-provider", "provider", "simple","simple-id", "meaningful"]
 }
