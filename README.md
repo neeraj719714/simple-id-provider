@@ -13,15 +13,14 @@ a simple ID Provider using javascript
 
 ## usage
 
-`
-    
     import IDProvider from 'simple-id-provider';
     const idProvider = new IDProvider();
     let id = idProvider.getId("test");
     console.log(id)    // test
-    let newid = dProvider.getId("test");
+    let newid = idProvider.getId("test");
     console.log(id)    // test-1;
-`
+    console.log(newid) // test-2
+
 
 ## api
 
