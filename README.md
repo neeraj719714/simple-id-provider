@@ -8,7 +8,7 @@ a simple ID Provider using javascript
 - currently supports only ESM
 - fast⚡
 
-## installation
+## installationnnn
 
 > `npm i simple-id-provider`
 
